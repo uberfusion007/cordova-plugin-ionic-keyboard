@@ -1,6 +1,6 @@
 {
-  "name": "cordova-plugin-ionic-keyboard",
-  "version": "2.2.0",
+  "name": "@uberfusion007/cordova-plugin-ionic-keyboard",
+  "version": "2.2.1",
   "description": "Ionic Keyboard Plugin",
   "scripts": {
     "release": "standard-version -a",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ionic-team/cordova-plugin-ionic-keyboard.git"
+    "url": "git+https://github.com/uberfusion007/cordova-plugin-ionic-keyboard"
   },
   "keywords": [
     "cordova",
@@ -22,6 +22,9 @@
     "cordova-ios",
     "cordova-android"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "author": "Apache Software Foundation",
   "license": "Apache 2.0",
   "bugs": {
